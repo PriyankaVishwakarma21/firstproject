@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<servlet-class>com.admin.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<url-pattern>/Admin/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  <servlet-name>AdminLogoutServlet</servlet-name>
+  <servlet-class>com.admin.servlet.AdminLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminLogoutServlet</servlet-name>
+  <url-pattern>/Admin/AdminLogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SearchUserServlet</servlet-name>
+  <servlet-class>com.admin.servlet.SearchUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SearchUserServlet</servlet-name>
+  <url-pattern>/Admin/SearchUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>calculateBillServlet</servlet-name>
+  <servlet-class>com.admin.servlet.calculateBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>calculateBillServlet</servlet-name>
+  <url-pattern>/Admin/calculateBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>updateuserinfoservlet</servlet-name>
+  <servlet-class>com.admin.servlet.updateuserinfoservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>updateuserinfoservlet</servlet-name>
+  <url-pattern>/Admin/updateuserinfoservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <servlet-class>com.admin.servlet.DeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <url-pattern>/Admin/DeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>RegisterUserServlet</servlet-name>
+  <servlet-class>com.user.servlet.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>RegisterUserServlet</servlet-name>
+  <url-pattern>/User/RegisterUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UserLoginServlet</servlet-name>
+  <servlet-class>com.user.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserLoginServlet</servlet-name>
+  <url-pattern>/User/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>PayBillServlet</servlet-name>
+  <servlet-class>com.user.servlet.PayBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PayBillServlet</servlet-name>
+  <url-pattern>/User/PayBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <servlet-class>com.user.servlet.UserLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <url-pattern>/User/UserLogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <session-config>
+  	<session-timeout>30</session-timeout>
+  </session-config>
+</web-app>
