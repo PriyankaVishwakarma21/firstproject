@@ -14,7 +14,7 @@
                 <ul class="navbar-nav ml-auto mb-2" id="navbar-nav">
                     <li class="nav-item "><a class="nav-link active " aria-current="page" href="userHome.jsp">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="viewbill.jsp">View Bill</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Payment History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="payment_history.jsp">Payment History</a></li>
                      <li class="nav-item"><a class="nav-link" href="UserLogoutServlet">Logout</a></li>
                 </ul>
             </div><!--End collapse navbar-->
